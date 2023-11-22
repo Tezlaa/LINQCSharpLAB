@@ -76,7 +76,7 @@ public class QueryHelper : IQueryHelper
         {
             StartCity = group.Key.StartCity,
             EndCity = group.Key.EndCity,
-            AverageGap = group.Average(d => (d.ArrivalPeriod.Start - d.LoadingPeriod.End)?.TotalMinutes ?? 0)
+            AverageGap = group.Average(delivery => (delivery.ArrivalPeriod.Start.Value - delivery.LoadingPeriod.End.Value).Minutes)
         });
 
     /// <summary>

@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ConsoleApp"
+    "\\ConsoleApp",
+    "\\ConsoleApp\\ConsoleApp",
+    "\\ConsoleApp\\ConsoleApp\\Model",
+    "\\ConsoleApp\\ConsoleApp\\Model\\Enum",
+    "\\ConsoleApp\\ConsoleApp\\OutputTypes"
   ],
-  "SelectedNode": "\\ConsoleApp\\ConsoleApp.sln",
+  "SelectedNode": "\\ConsoleApp\\ConsoleApp\\QueryHelper.cs",
   "PreviewInSolutionExplorer": false
 }
